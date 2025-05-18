@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import { Head } from '@inertiajs/react'
 
 export default function Home() {
@@ -5,7 +6,8 @@ export default function Home() {
     <>
       <Head title="Homepage" />
 
-      <p className="text-red-500">This is home page</p>
+      
+      <Button>Click me</Button>
     </>
   )
 }
