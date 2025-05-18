@@ -8,5 +8,10 @@
 */
 
 import router from '@adonisjs/core/services/router'
-router.on('/').renderInertia('home')
 
+router.on('/').render('landing')
+
+router.on('/login').renderInertia('login')
+router.on('/register').renderInertia('register')
+
+router.on('/app').renderInertia('dashboard')
